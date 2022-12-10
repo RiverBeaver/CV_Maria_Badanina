@@ -1,0 +1,43 @@
+section.section {
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    
+    h1 {
+        @import '../two-color';
+    }
+    
+    > div {
+
+        gap: 4rem;
+       
+        > div {
+            border-radius: 0.75rem;
+            box-shadow: 0 0 1rem 0 #c7c7c7d2;
+            padding: 1rem;
+
+            h2 {
+                color: $title-color;
+                margin: 1rem 0;
+            }
+
+            div.img {
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 3rem;
+            }
+        }
+    }
+
+    div.two_bloks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} 

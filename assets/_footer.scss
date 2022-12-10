@@ -1,0 +1,12 @@
+footer {
+    background-color: $bg-color;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    white-space: pre-wrap;
+
+    em {
+        font-size: 0.9em;
+        font-style: oblique;
+    }
+}

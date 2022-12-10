@@ -1,0 +1,16 @@
+    section#education {
+        div:first-of-type div.img {
+            background-image: url(../images/bsuir-logo.png);
+        }
+
+        div:last-of-type {
+            h2 {
+                margin-bottom: 0.5rem;
+            }
+
+            > a div.img {
+                background-image: url(../images/logo_it_step.jpg);
+                height: 3.5rem;
+            }
+        }        
+    }

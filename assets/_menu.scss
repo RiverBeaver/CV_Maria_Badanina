@@ -1,0 +1,42 @@
+menu {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem 0;
+
+    > div {
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 2.75rem;
+        // justify-content: center;
+    }
+    
+    .logo span {
+        font-weight: 400;
+        color: $title-color2;
+    }
+    
+    .navs {
+        display: flex;
+        gap: 0.5rem 2.75rem;
+        color: $text-color;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    a {
+        color: $text-color;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color: $title-color2;
+    }
+
+    @import 'two-color';
+}

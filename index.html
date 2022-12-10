@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dark/dark.css" media="(prefers-color-scheme: dark)">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <menu>
         <div>
             <div class="logo">
-                <strong>Raul</strong><span>iqbal</span>
+                <span class="strong">Raul</span><span>iqbal</span>
             </div>
             <div class="navs">
                 <nav>
@@ -46,7 +48,7 @@
         <section class="section" id="skills">
             <h1>
                 <span>My</span>
-                <strong>Skills</strong>
+                <span class="strong">Skills</span>
             </h1>
             <div class="two_bloks">
                 <div>
@@ -64,7 +66,7 @@
         <section class="section" id="portfolio">
             <h1>
                 <span>My</span>
-                <strong>Portfolio</strong> 
+                <span class="strong">Portfolio</span> 
             </h1>
             <div>
                 <div>
@@ -81,7 +83,7 @@
         <section class="section" id="education">
             <h1>
                 <span>Education</span>
-                <strong>place</strong>  
+                <span class="strong">place</span>  
             </h1>
             <div class="two_bloks">
                 <div>
@@ -94,7 +96,65 @@
                 </div>
             </div>
         </section>
-        <section id="contact"></section>
+        <section id="contact">
+            <h1>
+                <span>Contact</span>
+                <span class="strong">me</span>
+            </h1>
+            <h2>Get In Touch</h2>
+            <div>
+                <div class="contacts">
+                    <h5>Contact Information</h5>
+                    <h6>
+                        <i class="bx bxs-user me-2"></i>
+                        Maria Balanina
+                    </h6>
+                    <h6>
+                        <i class="bx bxs-phone me-2"></i>
+                        <a href="tel: +375257725964" target="_blank">+375(25)772-59-64</a>
+                    </h6>
+                    <h6>
+                        <i class="bx bxs-envelope me-2"></i>
+                        <a href="mailto: maria.a.badanina@gmail.com" target="_blank">maria.a.badanina@gmail.com</a>
+                    </h6>
+                    <div>
+                        <div>
+                            <a href="https://t.me/maria_bad" target="_blank">
+                                <i class='bx bxl-telegram icons'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/RiverBeaver" target="_blank">
+                                <i class="bx bxl-github icons"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/maria-badanina-4a3b2523a/" target="_blank">
+                                <i class="bx bxl-linkedin icons"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="email">
+                    <form action="" method="GET">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Youre name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Youre email" required>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="1"  placeholder="Youre message" required></textarea>
+                        </div>
+                        <button>Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main> 
+    <footer><em>Maria-Badanina</em>   2022</footer>
 </body>
 </html>
