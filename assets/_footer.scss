@@ -1,9 +1,10 @@
 footer {
     background-color: $bg-color;
-    color: white;
+    color: $light-color;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     white-space: pre-wrap;
+    margin-top: 2rem;
 
     em {
         font-size: 0.9em;

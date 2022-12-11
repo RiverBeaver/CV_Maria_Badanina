@@ -1,0 +1,15 @@
+    section#education {
+
+        div:first-of-type div.img {
+            filter: invert(100%) hue-rotate(180deg) brightness(2) drop-shadow(0 0 10px black);
+            background-image: url(../images/bsuir-logo.png);
+        }
+
+        div:last-of-type {
+            
+            > a div.img {
+                filter: invert(100%) hue-rotate(180deg) brightness(2.3) drop-shadow(0 0 10px black);
+                background-image: url(../images/logo_it_step.jpg);
+            }
+        }        
+    }

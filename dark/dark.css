@@ -1,5 +1,130 @@
-
-html body {
-    background-color: black;
-    color: white;
+::-webkit-scrollbar-thumb {
+  background-color: #1c50b6;
 }
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+body a[href="#up"] {
+  box-shadow: 0 0 10px 1px rgba(45, 134, 218, 0.5);
+  background-color: #1c50b6;
+}
+body a[href="#up"] i {
+  color: aliceblue;
+}
+body menu {
+  background-color: rgba(4, 4, 60, 0.8509803922);
+}
+body menu .logo span {
+  color: #d9dae3;
+}
+body menu .logo span.strong {
+  color: #0048d4;
+}
+body menu .navs {
+  color: aliceblue;
+}
+body menu a {
+  color: aliceblue;
+}
+body menu a:hover {
+  color: #4eb9ff;
+}
+body menu a:hover div {
+  color: #4eb9ff;
+}
+body main section.section h1 span {
+  color: #d9dae3;
+}
+body main section.section h1 span.strong {
+  color: #0048d4;
+}
+body main section.section > div > div {
+  box-shadow: 0 0 10px 1px rgba(45, 134, 218, 0.5);
+}
+body main section.section > div > div h2 {
+  color: #0048d4;
+}
+body main section.section div.two_bloks > div {
+  background-color: #10092c;
+}
+body main section#about div.aboutMe p {
+  color: #0048d4;
+}
+body main section#about div.aboutMe h1 {
+  color: #0048d4;
+}
+body main section#portfolio > div > div {
+  box-shadow: 0 0 10px 1px rgba(45, 134, 218, 0.5);
+}
+body main section#portfolio > div > div > div > div a {
+  background-color: #212121;
+}
+body main section#portfolio > div > div > div > div a i {
+  vertical-align: middle;
+  color: aliceblue;
+}
+body main section#portfolio > div > div > div > div a:hover {
+  background-color: #2020ae;
+}
+body main section#portfolio > div > div > div > div a:hover i {
+  color: aliceblue;
+}
+body main section#portfolio > div > div:hover img {
+  transform: scale(120%) rotate(5deg);
+}
+body main section#portfolio > div > div:hover > div {
+  background: rgba(45, 134, 218, 0.5);
+}
+body main section#education div:first-of-type div.img {
+  filter: invert(100%) hue-rotate(180deg) brightness(2) drop-shadow(0 0 10px black);
+  background-image: url(../images/bsuir-logo.png);
+}
+body main section#education div:last-of-type > a div.img {
+  filter: invert(100%) hue-rotate(180deg) brightness(2.3) drop-shadow(0 0 10px black);
+  background-image: url(../images/logo_it_step.jpg);
+}
+body main section#contact h1 span {
+  color: #d9dae3;
+}
+body main section#contact h1 span.strong {
+  color: #0048d4;
+}
+body main section#contact > div div.contacts {
+  background-color: #1c50b6;
+}
+body main section#contact > div div.contacts > div div:hover {
+  background-color: rgba(8, 60, 160, 0.8784313725);
+}
+body main section#contact > div div.email form .form-control {
+  color: aliceblue;
+  border-bottom: 2px solid #a7a7a7;
+}
+body main section#contact > div div.email form .form-control:focus {
+  border-bottom: 2px solid #1c50b6;
+}
+body main section#contact > div div.email form .form-control:invalid:not(:-moz-placeholder-shown):not(:focus) {
+  border-color: #a9222f;
+}
+body main section#contact > div div.email form .form-control:invalid:not(:-ms-input-placeholder):not(:focus) {
+  border-color: #a9222f;
+}
+body main section#contact > div div.email form .form-control:invalid:not(:placeholder-shown):not(:focus) {
+  border-color: #a9222f;
+}
+body main section#contact > div div.email form .form-control:valid {
+  border-color: #1e6b47;
+}
+body main section#contact > div div.email form button {
+  background-color: #1c50b6;
+  color: aliceblue;
+  border: 1px solid #1c50b6;
+}
+body main section#contact > div div.email form button:hover {
+  background-color: #1c50b6;
+  box-shadow: 0 0 10px 3px #1c50b6;
+}
+body footer {
+  background-color: #1c50b6;
+}/*# sourceMappingURL=dark.css.map */

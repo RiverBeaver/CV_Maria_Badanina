@@ -1,0 +1,76 @@
+div.email {
+    form {
+        padding: 3rem;
+
+        div {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            font-family: inherit;
+            appearance: none;
+            display: block;
+            width: 90%;
+            border: none;
+            border-bottom: 2px solid #7e7e7e;
+            padding: .375rem .75rem;
+            padding-right: calc(1.5em + .75rem);
+            font-size: 1rem;
+            outline: none;
+            background-color: transparent;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-bottom: 2px solid $bg-color;              
+        }
+        
+        .form-control:invalid:not(:placeholder-shown):not(:focus) {
+            border-color: #dc3545;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right calc(.375em + .1875rem) center;
+            background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+        }
+
+        .form-control:valid {
+            border-color: #198754;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right calc(.375em + .1875rem) center;
+            background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+        }
+
+        textarea {
+            transition: all 0s ease;
+            resize: vertical;
+            height: 1rem;
+            min-height: calc(1em + 0.55rem);
+        }
+
+        button {
+            background-color: $light-color;
+            color: $bg-color;
+            border: 1px solid $bg-color;
+            border-radius: 1rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        button:hover {
+            background-color: $bg-color;
+            color: $light-color;
+        }
+
+        button:active {
+            box-shadow: 0 0 10px 0 $bg-color;
+        }
+    }
+}

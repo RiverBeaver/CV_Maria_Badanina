@@ -1,32 +1,59 @@
 @import 'assets/vars';
 @import 'assets/reset';
 
+* {
+    transition: all .3s ease-in-out, color 0s ease-in-out;
+}
+
 html {
     scroll-behavior: smooth;
+}
 
+body {
+    font-family: "Poppins";
+    color: $text-color;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+
+    @import 'assets/up';
+
+    @import 'assets/menu';
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    
+        @import 'assets/main/class_section';
+            
+        @import 'assets/main/about';
+
+        @import 'assets/main/portfolio';
+    
+        @import 'assets/main/education';
+    
+        @import 'assets/main/contact/contact';
+    } 
+
+    @import 'assets/footer';
+} 
+
+@media (max-width: 800px) {
     body {
-        font-family: "Poppins";
-        color: $text-color;
-        background-image: url(../images/Background.png);
-        background-repeat: no-repeat;
-        background-position: 50% 10%;
-
-        @import 'assets/menu';
+        min-width: 300px;
+        @import 'assets/up_to_800px/menu';
 
         main {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        
-            @import 'assets/main/class_section';
-                
-            @import 'assets/main/about';
-        
-            @import 'assets/main/education';
-        
-            @import 'assets/contact/contact';
-        } 
+            gap: 0;
 
-        @import 'assets/footer';
-    } 
+            @import 'assets/up_to_800px/class_section';
+
+            @import 'assets/up_to_800px/about';
+
+            @import 'assets/up_to_800px/portfolio';
+
+            @import 'assets/up_to_800px/contact/contact';
+        }
+    }
 }

@@ -1,0 +1,33 @@
+div.email {
+    
+    form {
+
+        .form-control {
+            color: $light-color;
+            border-bottom: 2px solid #a7a7a7;
+        }
+
+        .form-control:focus {
+            border-bottom: 2px solid $bg-color-dark;              
+        }
+        
+        .form-control:invalid:not(:placeholder-shown):not(:focus) {
+            border-color: #a9222f;
+        }
+
+        .form-control:valid {
+            border-color: #1e6b47;
+        }
+
+        button {
+            background-color: $bg-color-dark;
+            color: $light-color;
+            border: 1px solid $bg-color-dark;
+        }
+
+        button:hover {
+            background-color: $bg-color-dark;
+            box-shadow: 0 0 10px 3px $bg-color-dark;
+        } 
+    }
+}

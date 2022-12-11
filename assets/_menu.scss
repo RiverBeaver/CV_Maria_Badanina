@@ -1,23 +1,23 @@
 menu {
-    position: sticky;
+    position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.85);
     padding: 1rem 0;
+    z-index: 10;
 
     > div {
-        width: 80vw;
-        margin: 0 auto;
+        margin: 0 5vw;
         display: flex;
         justify-content: space-between;
         gap: 2.75rem;
-        // justify-content: center;
     }
     
-    .logo span {
-        font-weight: 400;
-        color: $title-color2;
+    .logo {
+        @import 'two-color';
     }
     
     .navs {
@@ -31,12 +31,22 @@ menu {
     a {
         color: $text-color;
         text-decoration: none;
+
+        br {
+            display: none;
+        }
+        div {
+            display: none;
+        }
     }
     
     a:hover {
-        text-decoration: underline;
+        border-bottom: 2px solid $title-color2;
         color: $title-color2;
+        transition: all 0s linear;
     }
 
-    @import 'two-color';
+    a:active {
+        box-shadow: 0 5px 10px -8px $box-shadow-color;
+    }
 }

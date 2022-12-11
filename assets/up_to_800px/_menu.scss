@@ -1,0 +1,51 @@
+menu {
+    padding: 0.2rem 0;
+
+    > div {
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .logo {
+        display: none;
+    }
+    
+    .navs {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    
+    a {
+        display: block;
+        font-size: 0.75rem;
+        text-align: center;
+        word-wrap: break-word;
+        
+        div {
+            display: block;
+            font-size: 1.5rem;
+            position: relative;
+            top: 0.7rem;
+        }
+
+        br {
+            display: block;
+        }
+    }
+    
+    a:hover {
+        border: none;
+
+        div {
+            top: 0.2rem;
+        }
+    }
+
+    a:active {
+        box-shadow: none;
+    }
+}

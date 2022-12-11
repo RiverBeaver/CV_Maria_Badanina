@@ -1,11 +1,12 @@
 div.contacts {
     background-color: $bg-color;
-    color: aliceblue;
+    color: $light-color;
     padding: 2rem 3rem;
+    padding-left: max(2rem, 5vw);
     border-radius: 0 0.5rem 0.5rem 0;
 
     a {
-        color: aliceblue;
+        color: $light-color;
     }
 
     p {
@@ -49,6 +50,7 @@ div.contacts {
             background-color: $bg-color-haver;
             transition: all 0.3s ease-in-out 0s;
             transform: scale(105%);
+            transform-origin: center;
         }      
     }   
 }    

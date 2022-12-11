@@ -1,11 +1,11 @@
 section#about {
-    padding-top: 80px;
     display: flex;
     margin: 0 auto;
     width: 85vw;
     align-items: center;
     gap: 4rem;
     max-width: 1000px;
+    padding: 6.75rem 0 5rem;
 
     div.aboutMe {
         flex-grow: 1;
@@ -31,5 +31,16 @@ section#about {
     height: 29.25rem;
     background-repeat: no-repeat;
     flex-shrink: 0.3;
+    animation: move 1s ease-in-out infinite alternate;
     }
 }  
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}

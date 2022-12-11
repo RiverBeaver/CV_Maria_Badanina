@@ -1,0 +1,8 @@
+a[href="#up"] {
+    box-shadow: 0 0 10px 1px $box-shadow-color-dark;
+    background-color: $bg-color-dark;
+
+    i {
+        color: $light-color;
+    }
+}

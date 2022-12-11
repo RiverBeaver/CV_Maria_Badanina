@@ -1,0 +1,13 @@
+section#contact {
+
+    h1 {
+        @import '../../two-color';
+    }
+
+    > div {
+        
+        @import 'div.contact';
+
+        @import 'div.email';
+    }   
+}

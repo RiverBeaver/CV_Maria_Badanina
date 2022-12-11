@@ -1,0 +1,26 @@
+@import '../assets/dark/vars';
+@import '../assets/dark/reset';
+
+body {
+    background-color: black;
+    color: $light-color;
+
+    @import '../assets/dark/up';
+
+    @import '../assets/dark/menu';
+
+    main {
+     
+        @import '../assets/dark/main/class_section';
+            
+        @import '../assets/dark/main/about';
+
+        @import '../assets/dark/main/portfolio';
+    
+        @import '../assets/dark/main/education';
+    
+        @import '../assets/dark/main/contact/contact';
+    } 
+
+    @import '../assets/dark/footer';
+} 

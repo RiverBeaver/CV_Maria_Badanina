@@ -1,0 +1,22 @@
+section.section {
+    > div {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 570px) {
+    section.section {
+        width: 90vw;
+        gap: 3rem;
+        
+        > div {
+            gap: 2rem;
+        }
+
+   
+        div.two_bloks {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+} 

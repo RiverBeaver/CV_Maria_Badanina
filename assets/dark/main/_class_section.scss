@@ -1,0 +1,24 @@
+section.section {
+    
+    h1 {
+        @import '../two-color';
+    }
+    
+    > div {
+
+        > div {
+            box-shadow: 0 0 10px 1px $box-shadow-color-dark;
+
+            h2 {
+                color: $title-color;
+            }
+        }
+    }
+
+    div.two_bloks {
+       
+        > div {
+            background-color: #10092c;
+        }
+    }
+} 

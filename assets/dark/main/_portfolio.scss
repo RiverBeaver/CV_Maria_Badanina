@@ -1,0 +1,43 @@
+section#portfolio {
+
+    > div {
+
+        > div {
+            box-shadow: 0 0 10px 1px rgba(45,134,218,.5);
+
+            > div {
+                                
+                > div {
+                    
+                    a {
+                        background-color: $text-color;
+                        
+                        i {
+                            vertical-align: middle;
+                            color: $light-color;
+                        }
+                    } 
+
+                    a:hover {                          
+                        background-color: #2020ae;
+
+                        i {
+                            color: $light-color;
+                        }
+                    }
+                }                                        
+            }
+        }
+
+        > div:hover {
+
+            img {
+                transform: scale(120%) rotate(5deg);
+            }
+
+            > div {
+                background: rgba(45,134,218,.5);
+            }
+        }
+    }
+}

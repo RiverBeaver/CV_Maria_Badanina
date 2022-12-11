@@ -1,0 +1,23 @@
+menu {
+    background-color: #04043cd9;
+    
+    .logo {
+        @import 'two-color';
+    }
+    
+    .navs {
+        color: $light-color;
+    }
+    
+    a {
+        color: $light-color;
+    }
+    
+    a:hover {
+        color: $title-color2-hover;
+
+        div {
+            color: $title-color2-hover;
+        }
+    }
+}

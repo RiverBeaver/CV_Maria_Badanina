@@ -1,0 +1,10 @@
+div.contacts {
+    background-color: $bg-color-dark;
+
+    > div {
+
+        div:hover {
+            background-color: $bg-color-haver-dark;
+        }      
+    }   
+}    

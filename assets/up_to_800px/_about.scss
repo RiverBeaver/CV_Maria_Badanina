@@ -1,0 +1,25 @@
+section#about {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+    div.aboutMe {
+        margin: 0 min(5vw, 4rem);
+    }
+
+    div.icon {
+        width: 70vw;
+        height: calc(70vw - 2rem);
+
+        @media (max-width: 560px) {
+            width: 80vw;
+            height: calc(80vw - 2rem);
+        }
+
+        @media (max-width: 300px) {
+            width: 15rem;
+            height: 13rem;
+        }
+    }    
+}  
