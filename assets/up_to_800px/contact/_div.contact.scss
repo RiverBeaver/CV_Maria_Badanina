@@ -3,6 +3,10 @@ div.contacts {
     padding-left: 2rem;
     border-radius: 0 0 0 0;
 
+    @media (max-width: 350px) {
+        padding-left: 1.5rem;   
+    }
+
     > div {
         justify-content: space-around;
         gap: 0;

@@ -66,6 +66,7 @@ body menu {
   background-color: rgba(255, 255, 255, 0.85);
   padding: 1rem 0;
   z-index: 10;
+  box-shadow: 0 -3px 10px 0px rgba(45, 134, 218, 0.5);
 }
 body menu > div {
   margin: 0 5vw;
@@ -425,16 +426,35 @@ body footer em {
     min-width: 300px;
   }
   body menu {
-    padding: 0.2rem 0;
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
   }
+}
+@media (max-width: 800px) and (max-width: 300px) {
+  body menu {
+    position: sticky;
+    width: calc(300px - 0.4rem);
+    top: 0;
+  }
+}
+@media (max-width: 800px) {
   body menu > div {
     width: auto;
     display: block;
     text-align: center;
   }
+}
+@media (max-width: 800px) and (max-width: 600px) {
+  body menu > div {
+    margin: 0 3vw;
+  }
+}
+@media (max-width: 800px) {
   body menu .logo {
     display: none;
   }
+}
+@media (max-width: 800px) {
   body menu .navs {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -442,6 +462,8 @@ body footer em {
     justify-items: center;
     justify-content: space-evenly;
   }
+}
+@media (max-width: 800px) {
   body menu a {
     display: block;
     font-size: 0.75rem;
@@ -457,15 +479,21 @@ body footer em {
   body menu a br {
     display: block;
   }
+}
+@media (max-width: 800px) {
   body menu a:hover {
     border: none;
   }
   body menu a:hover div {
     top: 0.2rem;
   }
+}
+@media (max-width: 800px) {
   body menu a:active {
     box-shadow: none;
   }
+}
+@media (max-width: 800px) {
   body main {
     gap: 0;
   }
@@ -493,9 +521,28 @@ body footer em {
     align-items: center;
     gap: 4rem;
   }
+}
+@media (max-width: 800px) and (max-width: 301px) {
+  body main section#about {
+    transition: all 0s linear;
+  }
+}
+@media (max-width: 800px) and (max-width: 300px) {
+  body main section#about {
+    padding-top: 1.75rem;
+  }
+}
+@media (max-width: 800px) {
   body main section#about div.aboutMe {
     margin: 0 min(5vw, 4rem);
   }
+}
+@media (max-width: 800px) and (max-width: 300px) {
+  body main section#about div.aboutMe {
+    margin: 0 15px;
+  }
+}
+@media (max-width: 800px) {
   body main section#about div.icon {
     width: 70vw;
     height: calc(70vw - 2rem);
@@ -540,12 +587,26 @@ body footer em {
     padding-left: 2rem;
     border-radius: 0 0 0 0;
   }
+}
+@media (max-width: 800px) and (max-width: 350px) {
+  body main section#contact > div div.contacts {
+    padding-left: 1.5rem;
+  }
+}
+@media (max-width: 800px) {
   body main section#contact > div div.contacts > div {
     justify-content: space-around;
     gap: 0;
   }
+}
+@media (max-width: 800px) {
   body main section#contact > div div.email form {
     padding: 2rem;
+  }
+}
+@media (max-width: 800px) and (max-width: 350px) {
+  body main section#contact > div div.email form {
+    padding-left: 1.5rem;
   }
 }
 

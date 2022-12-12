@@ -4,8 +4,21 @@ section#about {
     align-items: center;
     gap: 4rem;
 
+    @media (max-width: 301px) {
+        transition: all 0s linear;
+    }
+
+    @media (max-width: 300px) {
+        padding-top: 1.75rem;
+
+    }
+
     div.aboutMe {
         margin: 0 min(5vw, 4rem);
+
+        @media (max-width: 300px) {
+            margin: 0 calc(300px * 0.05);
+        }
     }
 
     div.icon {
