@@ -23,6 +23,7 @@ div.email {
             font-size: 1rem;
             outline: none;
             background-color: transparent;
+            transition: all 0s ease;
         }
 
         .form-control:focus {
@@ -47,7 +48,6 @@ div.email {
         }
 
         textarea {
-            transition: all 0s ease;
             resize: vertical;
             height: 1rem;
             min-height: calc(1em + 0.55rem);

@@ -19,6 +19,14 @@ section#about {
         @media (max-width: 300px) {
             margin: 0 calc(300px * 0.05);
         }
+
+        p {
+            font-size: 1.25rem;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+        }
     }
 
     div.icon {

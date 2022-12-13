@@ -20,7 +20,7 @@ body menu .logo span {
   color: #d9dae3;
 }
 body menu .logo span.strong {
-  color: #0048d4;
+  color: #0485ff;
 }
 body menu .navs {
   color: aliceblue;
@@ -38,22 +38,22 @@ body main section.section h1 span {
   color: #d9dae3;
 }
 body main section.section h1 span.strong {
-  color: #0048d4;
+  color: #0485ff;
 }
 body main section.section > div > div {
   box-shadow: 0 0 10px 1px rgba(45, 134, 218, 0.5);
 }
 body main section.section > div > div h2 {
-  color: #0048d4;
+  color: #0485ff;
 }
 body main section.section div.two_bloks > div {
   background-color: #10092c;
 }
 body main section#about div.aboutMe p {
-  color: #0048d4;
+  color: #0485ff;
 }
 body main section#about div.aboutMe h1 {
-  color: #0048d4;
+  color: #0485ff;
 }
 body main section#portfolio > div > div {
   box-shadow: 0 0 10px 1px rgba(45, 134, 218, 0.5);
@@ -89,7 +89,7 @@ body main section#contact h1 span {
   color: #d9dae3;
 }
 body main section#contact h1 span.strong {
-  color: #0048d4;
+  color: #0485ff;
 }
 body main section#contact > div div.contacts {
   background-color: #1c50b6;
@@ -103,12 +103,6 @@ body main section#contact > div div.email form .form-control {
 }
 body main section#contact > div div.email form .form-control:focus {
   border-bottom: 2px solid #1c50b6;
-}
-body main section#contact > div div.email form .form-control:invalid:not(:-moz-placeholder-shown):not(:focus) {
-  border-color: #a9222f;
-}
-body main section#contact > div div.email form .form-control:invalid:not(:-ms-input-placeholder):not(:focus) {
-  border-color: #a9222f;
 }
 body main section#contact > div div.email form .form-control:invalid:not(:placeholder-shown):not(:focus) {
   border-color: #a9222f;
@@ -127,4 +121,6 @@ body main section#contact > div div.email form button:hover {
 }
 body footer {
   background-color: #1c50b6;
-}/*# sourceMappingURL=dark.css.map */
+}
+
+/*# sourceMappingURL=dark.css.map */
